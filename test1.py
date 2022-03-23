@@ -198,3 +198,5 @@ if __name__ == '__main__':
     print(format(now, '%Y%m%d'), 'NO' + format(1, '0>3'))  # 年-月-日 +NO+3位编号
     print(format(now, '%d'), 'NO' + format(1, '0>3'))  # 日期 +NO+3位编号
     print(format(now, '%H%M'), 'NO' + format(1, '0>3'))  # 时钟+分 +NO+3位编号
+
+    input()
